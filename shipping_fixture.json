@@ -84,13 +84,22 @@
     "pk": 10, 
     "model": "contenttypes.contenttype", 
     "fields": {
-        "model": "path", 
-        "name": "Caminho", 
+        "model": "background", 
+        "name": "Antecedente", 
         "app_label": "sheets"
     }
 },
 {
     "pk": 11, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "path", 
+        "name": "Trilha", 
+        "app_label": "sheets"
+    }
+},
+{
+    "pk": 12, 
     "model": "contenttypes.contenttype", 
     "fields": {
         "model": "archetype", 
@@ -99,7 +108,7 @@
     }
 },
 {
-    "pk": 12, 
+    "pk": 13, 
     "model": "contenttypes.contenttype", 
     "fields": {
         "model": "merit", 
@@ -108,7 +117,7 @@
     }
 },
 {
-    "pk": 13, 
+    "pk": 14, 
     "model": "contenttypes.contenttype", 
     "fields": {
         "model": "flaw", 
@@ -117,7 +126,7 @@
     }
 },
 {
-    "pk": 14, 
+    "pk": 15, 
     "model": "contenttypes.contenttype", 
     "fields": {
         "model": "generation", 
@@ -126,7 +135,7 @@
     }
 },
 {
-    "pk": 15, 
+    "pk": 16, 
     "model": "contenttypes.contenttype", 
     "fields": {
         "model": "character", 
@@ -135,10 +144,10 @@
     }
 },
 {
-    "pk": "zr9u898tfocs1ufuiocgimfem4qjzkv8", 
+    "pk": "aqekjxftidu3jppxjk0c60r8odwpcm1y", 
     "model": "sessions.session", 
     "fields": {
-        "expire_date": "2014-07-25T02:30:53.489Z", 
+        "expire_date": "2014-07-25T16:16:20.755Z", 
         "session_data": "NmM2ZjZmZjA0YjU3MTM1ODE3YWY3MzMyODg0ZGZkMjc5N2FhZWJlOTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
     }
 },
@@ -202,63 +211,77 @@
     "pk": 9, 
     "model": "sheets.clan", 
     "fields": {
-        "clanName": "Ravnos"
+        "clanName": "Toreador"
     }
 },
 {
     "pk": 10, 
     "model": "sheets.clan", 
     "fields": {
-        "clanName": "Toreador"
+        "clanName": "Tremere"
     }
 },
 {
     "pk": 11, 
     "model": "sheets.clan", 
     "fields": {
-        "clanName": "Tremere"
+        "clanName": "Tzimisce"
     }
 },
 {
     "pk": 12, 
     "model": "sheets.clan", 
     "fields": {
-        "clanName": "Tzimisce"
+        "clanName": "Ventrue"
     }
 },
 {
     "pk": 13, 
     "model": "sheets.clan", 
     "fields": {
-        "clanName": "Ventrue"
+        "clanName": "Caitiff"
+    }
+},
+{
+    "pk": 14, 
+    "model": "sheets.clan", 
+    "fields": {
+        "clanName": "Ravnos"
+    }
+},
+{
+    "pk": 15, 
+    "model": "sheets.clan", 
+    "fields": {
+        "clanName": "Salubri"
     }
 },
 {
     "pk": 1, 
     "model": "sheets.sect", 
     "fields": {
-        "sectName": "Anarquistas"
+        "sectName": "Independentes"
     }
 },
 {
     "pk": 2, 
     "model": "sheets.sect", 
     "fields": {
-        "sectName": "Independentes"
+        "sectName": "Camarilla"
     }
 },
 {
     "pk": 3, 
     "model": "sheets.sect", 
     "fields": {
-        "sectName": "Camarilla"
+        "sectName": "Sab\u00e1"
     }
 },
 {
     "pk": 4, 
     "model": "sheets.sect", 
     "fields": {
-        "sectName": "Sab\u00e1"
+        "sectName": "Anarquistas"
     }
 },
 {
@@ -293,154 +316,231 @@
     "pk": 5, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Dem\u00eancia"
+        "disciplineName": "Daimoinion"
     }
 },
 {
     "pk": 6, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Domina\u00e7\u00e3o"
+        "disciplineName": "Dem\u00eancia"
     }
 },
 {
     "pk": 7, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Fortitude"
+        "disciplineName": "Domina\u00e7\u00e3o"
     }
 },
 {
     "pk": 8, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Ofusca\u00e7\u00e3o"
+        "disciplineName": "Fortitude"
     }
 },
 {
     "pk": 9, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Tenebrosidade"
+        "disciplineName": "Melpominee"
     }
 },
 {
     "pk": 10, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Pot\u00eancia"
+        "disciplineName": "Mytherceria"
     }
 },
 {
     "pk": 11, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Presen\u00e7a"
+        "disciplineName": "Obeah"
     }
 },
 {
     "pk": 12, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Metamorfose"
+        "disciplineName": "Ofusca\u00e7\u00e3o"
     }
 },
 {
     "pk": 13, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Quietus"
+        "disciplineName": "Tenebrosidade"
     }
 },
 {
     "pk": 14, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Serpentis"
+        "disciplineName": "Pot\u00eancia"
     }
 },
 {
     "pk": 15, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Temporis"
+        "disciplineName": "Presen\u00e7a"
     }
 },
 {
     "pk": 16, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Vicissitude"
+        "disciplineName": "Metamorfose"
     }
 },
 {
     "pk": 17, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Necromancia"
+        "disciplineName": "Quietus"
     }
 },
 {
     "pk": 18, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Taumaturgia"
+        "disciplineName": "Serpentis"
     }
 },
 {
     "pk": 19, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Obeah"
+        "disciplineName": "Temporis"
     }
 },
 {
     "pk": 20, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Melpominee"
+        "disciplineName": "Thanatose"
     }
 },
 {
     "pk": 21, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Tanatose"
+        "disciplineName": "Valeren"
     }
 },
 {
     "pk": 22, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Mytherceria"
+        "disciplineName": "Vicissitude"
     }
 },
 {
     "pk": 23, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Daimoinon"
+        "disciplineName": "Visceratika"
     }
 },
 {
     "pk": 24, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Valeren"
+        "disciplineName": "Necromancia"
     }
 },
 {
     "pk": 25, 
     "model": "sheets.discipline", 
     "fields": {
-        "disciplineName": "Visceratika"
+        "disciplineName": "Taumaturgia"
+    }
+},
+{
+    "pk": 1, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Ref\u00fagio"
+    }
+},
+{
+    "pk": 2, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Rebanho"
+    }
+},
+{
+    "pk": 3, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Influ\u00eancia (Elite)"
+    }
+},
+{
+    "pk": 4, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Influ\u00eancia (Submundo)"
+    }
+},
+{
+    "pk": 5, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Recursos"
+    }
+},
+{
+    "pk": 6, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Lacaios"
+    }
+},
+{
+    "pk": 7, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Gera\u00e7\u00e3o"
+    }
+},
+{
+    "pk": 8, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Contatos"
+    }
+},
+{
+    "pk": 9, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Fama"
+    }
+},
+{
+    "pk": 10, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Identidade Alternativa"
+    }
+},
+{
+    "pk": 11, 
+    "model": "sheets.background", 
+    "fields": {
+        "backgroundName": "Aliados"
     }
 },
 {
     "pk": 1, 
     "model": "sheets.path", 
     "fields": {
-        "pathName": "Humanidade"
+        "pathName": "Trilha de Caim"
     }
 },
 {
@@ -461,14 +561,14 @@
     "pk": 4, 
     "model": "sheets.path", 
     "fields": {
-        "pathName": "Trilha de Caim"
+        "pathName": "Trilha do Cavalheirismo"
     }
 },
 {
     "pk": 5, 
     "model": "sheets.path", 
     "fields": {
-        "pathName": "Trilha de Typhon"
+        "pathName": "Trilha de Typhon-Set"
     }
 },
 {
@@ -486,283 +586,1119 @@
     }
 },
 {
+    "pk": 8, 
+    "model": "sheets.path", 
+    "fields": {
+        "pathName": "Trilha do Poder/Voz Interior"
+    }
+},
+{
     "pk": 1, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Nenhum"
+        "archetypeName": "Architect"
     }
 },
 {
     "pk": 2, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Arquiteto"
+        "archetypeName": "Artist"
     }
 },
 {
     "pk": 3, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Artista"
+        "archetypeName": "Bully"
     }
 },
 {
     "pk": 4, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Encrenqueiro"
+        "archetypeName": "Caregiver"
     }
 },
 {
     "pk": 5, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Protetor"
+        "archetypeName": "Child"
     }
 },
 {
     "pk": 6, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Infantil"
+        "archetypeName": "Competitor"
     }
 },
 {
     "pk": 7, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Competidor"
+        "archetypeName": "Con Artist"
     }
 },
 {
     "pk": 8, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Vigarista"
+        "archetypeName": "Conformist"
     }
 },
 {
     "pk": 9, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Conformista"
+        "archetypeName": "Curious"
     }
 },
 {
     "pk": 10, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Curioso"
+        "archetypeName": "Curmudgeon"
     }
 },
 {
     "pk": 11, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Grosseiro"
+        "archetypeName": "Cultured"
     }
 },
 {
     "pk": 12, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Culto"
+        "archetypeName": "Enigma"
     }
 },
 {
     "pk": 13, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Enigm\u00e1tico"
+        "archetypeName": "Fanatic"
     }
 },
 {
     "pk": 14, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Fan\u00e1tico"
+        "archetypeName": "Fighter"
     }
 },
 {
     "pk": 15, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Lutador"
+        "archetypeName": "Freak"
     }
 },
 {
     "pk": 16, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Esquisito"
+        "archetypeName": "Free Spirit"
     }
 },
 {
     "pk": 17, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Ca\u00e7ador de Emo\u00e7\u00f5es"
+        "archetypeName": "Judge"
     }
 },
 {
     "pk": 18, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Juiz"
+        "archetypeName": "Know-It-All"
     }
 },
 {
     "pk": 19, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Sabe-Tudo"
+        "archetypeName": "Introvert"
     }
 },
 {
     "pk": 20, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Introvertido"
+        "archetypeName": "Leader"
     }
 },
 {
     "pk": 21, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "L\u00edder"
+        "archetypeName": "Loner"
     }
 },
 {
     "pk": 22, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Solit\u00e1rio"
+        "archetypeName": "Loose Canon"
     }
 },
 {
     "pk": 23, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Pavio Curto"
+        "archetypeName": "Martyr"
     }
 },
 {
     "pk": 24, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "M\u00e1rtir"
+        "archetypeName": "Mediator"
     }
 },
 {
     "pk": 25, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Mediador"
+        "archetypeName": "Mercenary"
     }
 },
 {
     "pk": 26, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Mercen\u00e1rio"
+        "archetypeName": "Monster"
     }
 },
 {
     "pk": 27, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Monstro"
+        "archetypeName": "Penitent"
     }
 },
 {
     "pk": 28, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Penitente"
+        "archetypeName": "Protector"
     }
 },
 {
     "pk": 29, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Cuidador"
+        "archetypeName": "Rationalist"
     }
 },
 {
     "pk": 30, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Racional"
+        "archetypeName": "Royalty"
     }
 },
 {
     "pk": 31, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Realeza"
+        "archetypeName": "Survivor"
     }
 },
 {
     "pk": 32, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Sobrevivente"
+        "archetypeName": "Type-A Personality"
     }
 },
 {
     "pk": 33, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Perfeccionista"
+        "archetypeName": "Teacher"
     }
 },
 {
     "pk": 34, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Tradicionalista"
+        "archetypeName": "Traditionalist"
     }
 },
 {
     "pk": 35, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Trapaceiro"
+        "archetypeName": "Troublemaker"
     }
 },
 {
     "pk": 36, 
     "model": "sheets.archetype", 
     "fields": {
-        "archetypeName": "Arruaceiro"
+        "archetypeName": "Toady"
+    }
+},
+{
+    "pk": 37, 
+    "model": "sheets.archetype", 
+    "fields": {
+        "archetypeName": "Trickster"
+    }
+},
+{
+    "pk": 38, 
+    "model": "sheets.archetype", 
+    "fields": {
+        "archetypeName": "Unflappable"
+    }
+},
+{
+    "pk": 39, 
+    "model": "sheets.archetype", 
+    "fields": {
+        "archetypeName": "Untrustworthy"
+    }
+},
+{
+    "pk": 1, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Acute Sense"
+    }
+},
+{
+    "pk": 2, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 4, 
+        "meritName": "Additional Common Discipline"
+    }
+},
+{
+    "pk": 3, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Arcane"
+    }
+},
+{
+    "pk": 4, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Blas\u00e9"
+    }
+},
+{
+    "pk": 5, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Ambidextrous"
+    }
+},
+{
+    "pk": 6, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 5, 
+        "meritName": "Additional Uncommon Discipline"
+    }
+},
+{
+    "pk": 7, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Calm Heart"
+    }
+},
+{
+    "pk": 8, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Clear Sighted"
+    }
+},
+{
+    "pk": 9, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Efficient Digestion"
+    }
+},
+{
+    "pk": 10, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Efficient Learner"
+    }
+},
+{
+    "pk": 11, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 5, 
+        "meritName": "Golconda Seeker"
+    }
+},
+{
+    "pk": 12, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Code of Honor"
+    }
+},
+{
+    "pk": 13, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Daredevil"
+    }
+},
+{
+    "pk": 14, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Infernal Power"
+    }
+},
+{
+    "pk": 15, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Intense Vitality"
+    }
+},
+{
+    "pk": 16, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Iron Will"
+    }
+},
+{
+    "pk": 17, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Light Sleeper"
+    }
+},
+{
+    "pk": 18, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Loremaster"
+    }
+},
+{
+    "pk": 19, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Lucky"
+    }
+},
+{
+    "pk": 20, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Magic Resistance"
+    }
+},
+{
+    "pk": 21, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Medium"
+    }
+},
+{
+    "pk": 22, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Natural Linguist"
+    }
+},
+{
+    "pk": 23, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Oracular Ability"
+    }
+},
+{
+    "pk": 24, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Personal Masquerade"
+    }
+},
+{
+    "pk": 25, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Reputation"
+    }
+},
+{
+    "pk": 26, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Rugged"
+    }
+},
+{
+    "pk": 27, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 5, 
+        "meritName": "Necromantic Training"
+    }
+},
+{
+    "pk": 28, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Skill Aptitude"
+    }
+},
+{
+    "pk": 29, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Slippery Customer"
+    }
+},
+{
+    "pk": 30, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 5, 
+        "meritName": "Thaumaturgic Training"
+    }
+},
+{
+    "pk": 31, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Whisper of Life"
+    }
+},
+{
+    "pk": 32, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 4, 
+        "meritName": "Unbondable"
+    }
+},
+{
+    "pk": 33, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 4, 
+        "meritName": "Unyielding"
+    }
+},
+{
+    "pk": 34, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Versatile"
+    }
+},
+{
+    "pk": 35, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Path of Blood"
+    }
+},
+{
+    "pk": 36, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Path of Blood (Assam)"
+    }
+},
+{
+    "pk": 37, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Path of Typhon-Set"
+    }
+},
+{
+    "pk": 38, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 3, 
+        "meritName": "Path of Power & the Inner Voice"
+    }
+},
+{
+    "pk": 1, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "V\u00edcio"
+    }
+},
+{
+    "pk": 2, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Amn\u00e9sia"
+    }
+},
+{
+    "pk": 3, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Arcaico"
+    }
+},
+{
+    "pk": 4, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "P\u00e9ssima Mobilidade"
+    }
+},
+{
+    "pk": 5, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Bad Sight"
+    }
+},
+{
+    "pk": 6, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Beacon of the Unholy"
+    }
+},
+{
+    "pk": 7, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Beast in the Mirror"
+    }
+},
+{
+    "pk": 8, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Blunted Fangs"
+    }
+},
+{
+    "pk": 9, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Cannot Cross Running Water"
+    }
+},
+{
+    "pk": 10, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Careless"
+    }
+},
+{
+    "pk": 11, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Beastial Instinct"
+    }
+},
+{
+    "pk": 12, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -5, 
+        "flawName": "Blood Rot"
+    }
+},
+{
+    "pk": 13, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -4, 
+        "flawName": "Childlike"
+    }
+},
+{
+    "pk": 14, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Bound to the Earth"
+    }
+},
+{
+    "pk": 15, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Conspicuous Consump"
+    }
+},
+{
+    "pk": 16, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Curiosity"
+    }
+},
+{
+    "pk": 17, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -5, 
+        "flawName": "Dark Fate"
+    }
+},
+{
+    "pk": 18, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Dark Secret"
+    }
+},
+{
+    "pk": 19, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Death Sight"
+    }
+},
+{
+    "pk": 20, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Cursed"
+    }
+},
+{
+    "pk": 21, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Deep Sleeper"
+    }
+},
+{
+    "pk": 22, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -4, 
+        "flawName": "Disease Carrier"
+    }
+},
+{
+    "pk": 23, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -5, 
+        "flawName": "Flesh of the Corpse"
+    }
+},
+{
+    "pk": 24, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -4, 
+        "flawName": "Fragile Bones"
+    }
+},
+{
+    "pk": 25, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Dull"
+    }
+},
+{
+    "pk": 26, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Eerie Presence"
+    }
+},
+{
+    "pk": 27, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Gehenna Prophet"
+    }
+},
+{
+    "pk": 28, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Grip of the Damned"
+    }
+},
+{
+    "pk": 29, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Hard of Hearing"
+    }
+},
+{
+    "pk": 30, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Haunted"
+    }
+},
+{
+    "pk": 31, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Impatient"
+    }
+},
+{
+    "pk": 32, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Inept"
+    }
+},
+{
+    "pk": 33, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Intolerance"
+    }
+},
+{
+    "pk": 34, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Known To Be Dead"
+    }
+},
+{
+    "pk": 35, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Lesser Generation"
+    }
+},
+{
+    "pk": 36, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Lesser Generation*"
+    }
+},
+{
+    "pk": 37, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Infamous Brood"
+    }
+},
+{
+    "pk": 38, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Illiterate"
+    }
+},
+{
+    "pk": 39, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Necrophile"
+    }
+},
+{
+    "pk": 40, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Notoriety"
+    }
+},
+{
+    "pk": 41, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Low Pain Threshold"
+    }
+},
+{
+    "pk": 42, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Obvious Predator"
+    }
+},
+{
+    "pk": 43, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "One Eye"
+    }
+},
+{
+    "pk": 44, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Nightmares"
+    }
+},
+{
+    "pk": 45, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Magic Susceptibility"
+    }
+},
+{
+    "pk": 46, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -4, 
+        "flawName": "Methuselah's Thrist"
+    }
+},
+{
+    "pk": 47, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Overconfident"
+    }
+},
+{
+    "pk": 48, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Permanent Wound"
+    }
+},
+{
+    "pk": 49, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Poseidon's Call"
+    }
+},
+{
+    "pk": 50, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Pied Piper"
+    }
+},
+{
+    "pk": 51, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Short Fuse"
+    }
+},
+{
+    "pk": 52, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -4, 
+        "flawName": "Short Attention Span"
+    }
+},
+{
+    "pk": 53, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Slow Healing"
+    }
+},
+{
+    "pk": 54, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Prey Exclusion"
+    }
+},
+{
+    "pk": 55, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Slow Reactions"
+    }
+},
+{
+    "pk": 56, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Stolen Potential"
+    }
+},
+{
+    "pk": 57, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Repelled by Religion"
+    }
+},
+{
+    "pk": 58, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Thin Blooded"
+    }
+},
+{
+    "pk": 59, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Weak Stomach"
+    }
+},
+{
+    "pk": 60, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Thirst for Innocence"
+    }
+},
+{
+    "pk": 61, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -1, 
+        "flawName": "Trouble Magnet"
+    }
+},
+{
+    "pk": 62, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -2, 
+        "flawName": "Vulnerable to Silver"
+    }
+},
+{
+    "pk": 63, 
+    "model": "sheets.flaw", 
+    "fields": {
+        "flawValue": -3, 
+        "flawName": "Weak-Willed"
     }
 },
 {
     "pk": 1, 
     "model": "sheets.generation", 
     "fields": {
-        "gen": "11\u00aa"
+        "gen": "3\u00aa"
     }
 },
 {
     "pk": 2, 
     "model": "sheets.generation", 
     "fields": {
-        "gen": "10\u00aa"
+        "gen": "4\u00aa"
     }
 },
 {
     "pk": 3, 
     "model": "sheets.generation", 
     "fields": {
-        "gen": "9\u00aa"
+        "gen": "5\u00aa"
     }
 },
 {
     "pk": 4, 
     "model": "sheets.generation", 
     "fields": {
-        "gen": "8\u00aa"
+        "gen": "6\u00aa"
     }
 },
 {
@@ -776,70 +1712,28 @@
     "pk": 6, 
     "model": "sheets.generation", 
     "fields": {
-        "gen": "6\u00aa"
+        "gen": "8\u00aa"
     }
 },
 {
     "pk": 7, 
     "model": "sheets.generation", 
     "fields": {
-        "gen": "5\u00aa"
+        "gen": "9\u00aa"
     }
 },
 {
     "pk": 8, 
     "model": "sheets.generation", 
     "fields": {
-        "gen": "4\u00aa"
+        "gen": "10\u00aa"
     }
 },
 {
-    "pk": 1, 
-    "model": "sheets.character", 
+    "pk": 9, 
+    "model": "sheets.generation", 
     "fields": {
-        "charClan": 1, 
-        "melee": 4, 
-        "computer": 0, 
-        "charMental": 5, 
-        "charWill": 6, 
-        "animalken": 0, 
-        "medicine": 0, 
-        "linguistics": 0, 
-        "playerName": "Marcel", 
-        "charConcept": "Assassino", 
-        "charSect": 2, 
-        "charPhyFocus": "sta", 
-        "charPath": 2, 
-        "stealth": 1, 
-        "investigation": 0, 
-        "firearms": 1, 
-        "charMorality": 5, 
-        "lore": 1, 
-        "performance": 0, 
-        "awareness": 2, 
-        "dodge": 3, 
-        "brawl": 2, 
-        "survival": 1, 
-        "intimidation": 2, 
-        "streetwise": 1, 
-        "academics": 0, 
-        "leadership": 0, 
-        "security": 0, 
-        "charSocial": 3, 
-        "occult": 0, 
-        "empathy": 0, 
-        "charArchetype": 18, 
-        "charSocFocus": "man", 
-        "charMenFocus": "wits", 
-        "science": 0, 
-        "notes": "Lore: Settings", 
-        "drive": 0, 
-        "charPhysical": 7, 
-        "charName": "Adham", 
-        "subterfuge": 0, 
-        "crafts": 0, 
-        "athletics": 3, 
-        "charGen": 4
+        "gen": "11\u00aa"
     }
 },
 {
@@ -1089,8 +1983,8 @@
     "pk": 28, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "add_path", 
-        "name": "Can add Caminho", 
+        "codename": "add_background", 
+        "name": "Can add Antecedente", 
         "content_type": 10
     }
 },
@@ -1098,8 +1992,8 @@
     "pk": 29, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "change_path", 
-        "name": "Can change Caminho", 
+        "codename": "change_background", 
+        "name": "Can change Antecedente", 
         "content_type": 10
     }
 },
@@ -1107,8 +2001,8 @@
     "pk": 30, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "delete_path", 
-        "name": "Can delete Caminho", 
+        "codename": "delete_background", 
+        "name": "Can delete Antecedente", 
         "content_type": 10
     }
 },
@@ -1116,8 +2010,8 @@
     "pk": 31, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "add_archetype", 
-        "name": "Can add Arqu\u00e9tipo", 
+        "codename": "add_path", 
+        "name": "Can add Trilha", 
         "content_type": 11
     }
 },
@@ -1125,8 +2019,8 @@
     "pk": 32, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "change_archetype", 
-        "name": "Can change Arqu\u00e9tipo", 
+        "codename": "change_path", 
+        "name": "Can change Trilha", 
         "content_type": 11
     }
 },
@@ -1134,8 +2028,8 @@
     "pk": 33, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "delete_archetype", 
-        "name": "Can delete Arqu\u00e9tipo", 
+        "codename": "delete_path", 
+        "name": "Can delete Trilha", 
         "content_type": 11
     }
 },
@@ -1143,8 +2037,8 @@
     "pk": 34, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "add_merit", 
-        "name": "Can add Qualidade", 
+        "codename": "add_archetype", 
+        "name": "Can add Arqu\u00e9tipo", 
         "content_type": 12
     }
 },
@@ -1152,8 +2046,8 @@
     "pk": 35, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "change_merit", 
-        "name": "Can change Qualidade", 
+        "codename": "change_archetype", 
+        "name": "Can change Arqu\u00e9tipo", 
         "content_type": 12
     }
 },
@@ -1161,8 +2055,8 @@
     "pk": 36, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "delete_merit", 
-        "name": "Can delete Qualidade", 
+        "codename": "delete_archetype", 
+        "name": "Can delete Arqu\u00e9tipo", 
         "content_type": 12
     }
 },
@@ -1170,8 +2064,8 @@
     "pk": 37, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "add_flaw", 
-        "name": "Can add Defeito", 
+        "codename": "add_merit", 
+        "name": "Can add Qualidade", 
         "content_type": 13
     }
 },
@@ -1179,8 +2073,8 @@
     "pk": 38, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "change_flaw", 
-        "name": "Can change Defeito", 
+        "codename": "change_merit", 
+        "name": "Can change Qualidade", 
         "content_type": 13
     }
 },
@@ -1188,8 +2082,8 @@
     "pk": 39, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "delete_flaw", 
-        "name": "Can delete Defeito", 
+        "codename": "delete_merit", 
+        "name": "Can delete Qualidade", 
         "content_type": 13
     }
 },
@@ -1197,8 +2091,8 @@
     "pk": 40, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "add_generation", 
-        "name": "Can add Gera\u00e7\u00e3o", 
+        "codename": "add_flaw", 
+        "name": "Can add Defeito", 
         "content_type": 14
     }
 },
@@ -1206,8 +2100,8 @@
     "pk": 41, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "change_generation", 
-        "name": "Can change Gera\u00e7\u00e3o", 
+        "codename": "change_flaw", 
+        "name": "Can change Defeito", 
         "content_type": 14
     }
 },
@@ -1215,8 +2109,8 @@
     "pk": 42, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "delete_generation", 
-        "name": "Can delete Gera\u00e7\u00e3o", 
+        "codename": "delete_flaw", 
+        "name": "Can delete Defeito", 
         "content_type": 14
     }
 },
@@ -1224,8 +2118,8 @@
     "pk": 43, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "add_character", 
-        "name": "Can add Personagem", 
+        "codename": "add_generation", 
+        "name": "Can add Gera\u00e7\u00e3o", 
         "content_type": 15
     }
 },
@@ -1233,8 +2127,8 @@
     "pk": 44, 
     "model": "auth.permission", 
     "fields": {
-        "codename": "change_character", 
-        "name": "Can change Personagem", 
+        "codename": "change_generation", 
+        "name": "Can change Gera\u00e7\u00e3o", 
         "content_type": 15
     }
 },
@@ -1242,9 +2136,36 @@
     "pk": 45, 
     "model": "auth.permission", 
     "fields": {
+        "codename": "delete_generation", 
+        "name": "Can delete Gera\u00e7\u00e3o", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 46, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_character", 
+        "name": "Can add Personagem", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 47, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_character", 
+        "name": "Can change Personagem", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 48, 
+    "model": "auth.permission", 
+    "fields": {
         "codename": "delete_character", 
         "name": "Can delete Personagem", 
-        "content_type": 15
+        "content_type": 16
     }
 },
 {
@@ -1257,12 +2178,12 @@
         "is_active": true, 
         "is_superuser": true, 
         "is_staff": true, 
-        "last_login": "2014-07-11T02:30:53.480Z", 
+        "last_login": "2014-07-11T16:16:20.746Z", 
         "groups": [], 
         "user_permissions": [], 
-        "password": "pbkdf2_sha256$12000$cQ5VpCdfIHVS$zaGRwYzwAQz/sYhetx9Om4vOnYG17bUPKpZ30fnhfCg=", 
-        "email": "mribeirodantas@fedoraproject.org", 
-        "date_joined": "2014-07-11T02:30:45.458Z"
+        "password": "pbkdf2_sha256$12000$tkzHZGOM4snd$B98/GxsdYzEbSDRCJTYxnw+27DpDm/Cyh1+wCO3+PLE=", 
+        "email": "", 
+        "date_joined": "2014-07-11T16:16:13.327Z"
     }
 },
 {
@@ -1270,12 +2191,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:31:22.053Z", 
-        "object_repr": "11\u00aa", 
+        "action_time": "2014-07-11T16:17:04.820Z", 
+        "object_repr": "Ref\u00fagio", 
         "object_id": "1", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 14
+        "content_type": 10
     }
 },
 {
@@ -1283,12 +2204,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:31:25.043Z", 
-        "object_repr": "10\u00aa", 
+        "action_time": "2014-07-11T16:17:10.556Z", 
+        "object_repr": "Rebanho", 
         "object_id": "2", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 14
+        "content_type": 10
     }
 },
 {
@@ -1296,12 +2217,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:31:27.298Z", 
-        "object_repr": "9\u00aa", 
+        "action_time": "2014-07-11T16:17:20.157Z", 
+        "object_repr": "Influ\u00eancia (Elite)", 
         "object_id": "3", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 14
+        "content_type": 10
     }
 },
 {
@@ -1309,12 +2230,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:31:29.086Z", 
-        "object_repr": "8\u00aa", 
+        "action_time": "2014-07-11T16:17:26.121Z", 
+        "object_repr": "Influ\u00eancia (Submundo)", 
         "object_id": "4", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 14
+        "content_type": 10
     }
 },
 {
@@ -1322,12 +2243,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:31:30.834Z", 
-        "object_repr": "7\u00aa", 
+        "action_time": "2014-07-11T16:17:31.781Z", 
+        "object_repr": "Recursos", 
         "object_id": "5", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 14
+        "content_type": 10
     }
 },
 {
@@ -1335,12 +2256,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:31:32.748Z", 
-        "object_repr": "6\u00aa", 
+        "action_time": "2014-07-11T16:17:39.695Z", 
+        "object_repr": "Lacaios", 
         "object_id": "6", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 14
+        "content_type": 10
     }
 },
 {
@@ -1348,12 +2269,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:31:34.301Z", 
-        "object_repr": "5\u00aa", 
+        "action_time": "2014-07-11T16:18:05.368Z", 
+        "object_repr": "Gera\u00e7\u00e3o", 
         "object_id": "7", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 14
+        "content_type": 10
     }
 },
 {
@@ -1361,12 +2282,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:31:35.990Z", 
-        "object_repr": "4\u00aa", 
+        "action_time": "2014-07-11T16:18:12.695Z", 
+        "object_repr": "Contatos", 
         "object_id": "8", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 14
+        "content_type": 10
     }
 },
 {
@@ -1374,12 +2295,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:32:07.456Z", 
-        "object_repr": "Assamite", 
-        "object_id": "1", 
+        "action_time": "2014-07-11T16:18:16.296Z", 
+        "object_repr": "Fama", 
+        "object_id": "9", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 7
+        "content_type": 10
     }
 },
 {
@@ -1387,12 +2308,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:32:10.261Z", 
-        "object_repr": "Brujah", 
-        "object_id": "2", 
+        "action_time": "2014-07-11T16:18:24.789Z", 
+        "object_repr": "Identidade Alternativa", 
+        "object_id": "10", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 7
+        "content_type": 10
     }
 },
 {
@@ -1400,12 +2321,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:32:18.395Z", 
-        "object_repr": "Seguidores de Set", 
-        "object_id": "3", 
+        "action_time": "2014-07-11T16:18:27.768Z", 
+        "object_repr": "Aliados", 
+        "object_id": "11", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 7
+        "content_type": 10
     }
 },
 {
@@ -1413,9 +2334,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:32:23.915Z", 
-        "object_repr": "Gangrel", 
-        "object_id": "4", 
+        "action_time": "2014-07-11T16:20:32.489Z", 
+        "object_repr": "Assamita", 
+        "object_id": "1", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1426,9 +2347,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:32:27.169Z", 
-        "object_repr": "Giovanni", 
-        "object_id": "5", 
+        "action_time": "2014-07-11T16:20:35.582Z", 
+        "object_repr": "Brujah", 
+        "object_id": "2", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1439,9 +2360,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:32:33.172Z", 
-        "object_repr": "Lasombra", 
-        "object_id": "6", 
+        "action_time": "2014-07-11T16:20:53.500Z", 
+        "object_repr": "Seguidores de Set", 
+        "object_id": "3", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1452,9 +2373,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:32:40.155Z", 
-        "object_repr": "Malkaviano", 
-        "object_id": "7", 
+        "action_time": "2014-07-11T16:20:58.773Z", 
+        "object_repr": "Gangrel", 
+        "object_id": "4", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1465,9 +2386,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:32:44.588Z", 
-        "object_repr": "Nosferatu", 
-        "object_id": "8", 
+        "action_time": "2014-07-11T16:22:11.711Z", 
+        "object_repr": "Giovanni", 
+        "object_id": "5", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1478,9 +2399,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:32:54.681Z", 
-        "object_repr": "Ravnos", 
-        "object_id": "9", 
+        "action_time": "2014-07-11T16:22:17.186Z", 
+        "object_repr": "Lasombra", 
+        "object_id": "6", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1491,9 +2412,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:33:01.200Z", 
-        "object_repr": "Toreador", 
-        "object_id": "10", 
+        "action_time": "2014-07-11T16:22:25.739Z", 
+        "object_repr": "Malkaviano", 
+        "object_id": "7", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1504,9 +2425,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:33:05.882Z", 
-        "object_repr": "Tremere", 
-        "object_id": "11", 
+        "action_time": "2014-07-11T16:22:31.310Z", 
+        "object_repr": "Nosferatu", 
+        "object_id": "8", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1517,9 +2438,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:33:11.568Z", 
-        "object_repr": "Tzimisce", 
-        "object_id": "12", 
+        "action_time": "2014-07-11T16:22:38.178Z", 
+        "object_repr": "Toreador", 
+        "object_id": "9", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1530,9 +2451,9 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:33:16.975Z", 
-        "object_repr": "Ventrue", 
-        "object_id": "13", 
+        "action_time": "2014-07-11T16:22:45.103Z", 
+        "object_repr": "Tremere", 
+        "object_id": "10", 
         "change_message": "", 
         "user": 1, 
         "content_type": 7
@@ -1543,12 +2464,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:33:31.610Z", 
-        "object_repr": "Anarquistas", 
-        "object_id": "1", 
+        "action_time": "2014-07-11T16:22:53.695Z", 
+        "object_repr": "Tzimisce", 
+        "object_id": "11", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 8
+        "content_type": 7
     }
 },
 {
@@ -1556,12 +2477,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:33:37.031Z", 
-        "object_repr": "Independentes", 
-        "object_id": "2", 
+        "action_time": "2014-07-11T16:23:02.368Z", 
+        "object_repr": "Ventrue", 
+        "object_id": "12", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 8
+        "content_type": 7
     }
 },
 {
@@ -1569,12 +2490,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:33:40.499Z", 
-        "object_repr": "Camarilla", 
-        "object_id": "3", 
+        "action_time": "2014-07-11T16:23:09.570Z", 
+        "object_repr": "Caitiff", 
+        "object_id": "13", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 8
+        "content_type": 7
     }
 },
 {
@@ -1582,12 +2503,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:33:43.033Z", 
-        "object_repr": "Sab\u00e1", 
-        "object_id": "4", 
+        "action_time": "2014-07-11T16:23:31.647Z", 
+        "object_repr": "Ravnos", 
+        "object_id": "14", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 8
+        "content_type": 7
     }
 },
 {
@@ -1595,12 +2516,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:33:57.998Z", 
-        "object_repr": "Nenhum", 
-        "object_id": "1", 
+        "action_time": "2014-07-11T16:23:39.403Z", 
+        "object_repr": "Salubri", 
+        "object_id": "15", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 7
     }
 },
 {
@@ -1608,12 +2529,12 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:34:04.881Z", 
-        "object_repr": "Humanidade", 
+        "action_time": "2014-07-11T16:24:30.892Z", 
+        "object_repr": "3\u00aa", 
         "object_id": "1", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 10
+        "content_type": 15
     }
 },
 {
@@ -1621,7 +2542,1086 @@
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:34:24.685Z", 
+        "action_time": "2014-07-11T16:24:33.918Z", 
+        "object_repr": "4\u00aa", 
+        "object_id": "2", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 15
+    }
+},
+{
+    "pk": 29, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:24:35.505Z", 
+        "object_repr": "5\u00aa", 
+        "object_id": "3", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 15
+    }
+},
+{
+    "pk": 30, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:24:37.241Z", 
+        "object_repr": "6\u00aa", 
+        "object_id": "4", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 15
+    }
+},
+{
+    "pk": 31, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:24:38.818Z", 
+        "object_repr": "7\u00aa", 
+        "object_id": "5", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 15
+    }
+},
+{
+    "pk": 32, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:24:40.545Z", 
+        "object_repr": "8\u00aa", 
+        "object_id": "6", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 15
+    }
+},
+{
+    "pk": 33, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:24:42.265Z", 
+        "object_repr": "9\u00aa", 
+        "object_id": "7", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 15
+    }
+},
+{
+    "pk": 34, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:24:44.228Z", 
+        "object_repr": "10\u00aa", 
+        "object_id": "8", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 15
+    }
+},
+{
+    "pk": 35, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:24:46.938Z", 
+        "object_repr": "11\u00aa", 
+        "object_id": "9", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 15
+    }
+},
+{
+    "pk": 36, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:25:01.130Z", 
+        "object_repr": "Independentes", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 8
+    }
+},
+{
+    "pk": 37, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:25:04.216Z", 
+        "object_repr": "Camarilla", 
+        "object_id": "2", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 8
+    }
+},
+{
+    "pk": 38, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:25:06.234Z", 
+        "object_repr": "Sab\u00e1", 
+        "object_id": "3", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 8
+    }
+},
+{
+    "pk": 39, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:25:09.178Z", 
+        "object_repr": "Anarquistas", 
+        "object_id": "4", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 8
+    }
+},
+{
+    "pk": 40, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:25:29.741Z", 
+        "object_repr": "Trilha de Caim", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 11
+    }
+},
+{
+    "pk": 41, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:25:33.819Z", 
+        "object_repr": "Trilha do Sangue", 
+        "object_id": "2", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 11
+    }
+},
+{
+    "pk": 42, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:25:39.019Z", 
+        "object_repr": "Trilha de Cathari", 
+        "object_id": "3", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 11
+    }
+},
+{
+    "pk": 43, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:25:58.194Z", 
+        "object_repr": "Trilha do Cavalheirismo", 
+        "object_id": "4", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 11
+    }
+},
+{
+    "pk": 44, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:26:12.619Z", 
+        "object_repr": "Trilha de Typhon-Set", 
+        "object_id": "5", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 11
+    }
+},
+{
+    "pk": 45, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:26:18.520Z", 
+        "object_repr": "Trilha de Lilith", 
+        "object_id": "6", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 11
+    }
+},
+{
+    "pk": 46, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:26:23.796Z", 
+        "object_repr": "Trilha da Noite", 
+        "object_id": "7", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 11
+    }
+},
+{
+    "pk": 47, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:26:41.366Z", 
+        "object_repr": "Trilha do Poder/Voz Interior", 
+        "object_id": "8", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 11
+    }
+},
+{
+    "pk": 48, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:27:02.459Z", 
+        "object_repr": "V\u00edcio (-2)", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 49, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:27:11.132Z", 
+        "object_repr": "Amn\u00e9sia (-2)", 
+        "object_id": "2", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 50, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:27:23.641Z", 
+        "object_repr": "Arcaico (-2)", 
+        "object_id": "3", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 51, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:27:40.701Z", 
+        "object_repr": "P\u00e9ssima Mobilidade (-2)", 
+        "object_id": "4", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 52, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:28:06.893Z", 
+        "object_repr": "Bad Sight (-2)", 
+        "object_id": "5", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 53, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:28:16.697Z", 
+        "object_repr": "Beacon of the Unholy (-3)", 
+        "object_id": "6", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 54, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:28:22.131Z", 
+        "object_repr": "Beast in the Mirror (-2)", 
+        "object_id": "7", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 55, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:28:27.835Z", 
+        "object_repr": "Blunted Fangs (-2)", 
+        "object_id": "8", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 56, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:29:25.481Z", 
+        "object_repr": "Cannot Cross Run Wat (-2)", 
+        "object_id": "9", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 57, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:29:32.166Z", 
+        "object_repr": "Careless (-1)", 
+        "object_id": "10", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 58, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:29:37.569Z", 
+        "object_repr": "Beastial Instinct (-2)", 
+        "object_id": "11", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 59, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:29:43.868Z", 
+        "object_repr": "Blood Rot (-5)", 
+        "object_id": "12", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 60, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:29:50.865Z", 
+        "object_repr": "Childlike (-4)", 
+        "object_id": "13", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 61, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:30:01.329Z", 
+        "object_repr": "Bound to the Earth (-2)", 
+        "object_id": "14", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 62, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:30:23.581Z", 
+        "object_repr": "Conspicuous Consump (-3)", 
+        "object_id": "15", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 63, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:30:29.692Z", 
+        "object_repr": "Curiosity (-2)", 
+        "object_id": "16", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 64, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:30:33.852Z", 
+        "object_repr": "Dark Fate (-5)", 
+        "object_id": "17", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 65, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:30:43.183Z", 
+        "object_repr": "Dark Secret (-1)", 
+        "object_id": "18", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 66, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:30:46.640Z", 
+        "object_repr": "Death Sight (-2)", 
+        "object_id": "19", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 67, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:30:50.224Z", 
+        "object_repr": "Cursed (-1)", 
+        "object_id": "20", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 68, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:30:59.227Z", 
+        "object_repr": "Deep Sleeper (-2)", 
+        "object_id": "21", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 69, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:04.233Z", 
+        "object_repr": "Disease Carrier (-4)", 
+        "object_id": "22", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 70, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:10.270Z", 
+        "object_repr": "Flesh of the Corpse (-5)", 
+        "object_id": "23", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 71, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:14.698Z", 
+        "object_repr": "Fragile Bones (-4)", 
+        "object_id": "24", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 72, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:20.017Z", 
+        "object_repr": "Dull (-2)", 
+        "object_id": "25", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 73, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:26.275Z", 
+        "object_repr": "Eerie Presence (-1)", 
+        "object_id": "26", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 74, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:31.433Z", 
+        "object_repr": "Gehenna Prophet (-2)", 
+        "object_id": "27", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 75, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:39.318Z", 
+        "object_repr": "Grip of the Damned (-2)", 
+        "object_id": "28", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 76, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:43.906Z", 
+        "object_repr": "Hard of Hearing (-2)", 
+        "object_id": "29", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 77, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:46.880Z", 
+        "object_repr": "Haunted (-1)", 
+        "object_id": "30", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 78, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:52.278Z", 
+        "object_repr": "Impatient (-2)", 
+        "object_id": "31", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 79, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:31:59.434Z", 
+        "object_repr": "Inept (-3)", 
+        "object_id": "32", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 80, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:32:04.318Z", 
+        "object_repr": "Intolerance (-1)", 
+        "object_id": "33", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 81, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:32:12.254Z", 
+        "object_repr": "Known To Be Dead (-1)", 
+        "object_id": "34", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 82, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:32:22.052Z", 
+        "object_repr": "Lesser Generation (-1)", 
+        "object_id": "35", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 83, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:32:34.432Z", 
+        "object_repr": "Lesser Generation* (-2)", 
+        "object_id": "36", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 84, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:32:41.141Z", 
+        "object_repr": "Infamous Brood (-3)", 
+        "object_id": "37", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 85, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:32:45.656Z", 
+        "object_repr": "Illiterate (-1)", 
+        "object_id": "38", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 86, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:32:54.495Z", 
+        "object_repr": "Necrophile (-1)", 
+        "object_id": "39", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 87, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:32:59.546Z", 
+        "object_repr": "Notoriety (-2)", 
+        "object_id": "40", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 88, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:33:05.414Z", 
+        "object_repr": "Low Pain Threshold (-3)", 
+        "object_id": "41", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 89, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:33:12.576Z", 
+        "object_repr": "Obvious Predator (-2)", 
+        "object_id": "42", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 90, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:33:17.795Z", 
+        "object_repr": "One Eye (-3)", 
+        "object_id": "43", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 91, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:33:22.056Z", 
+        "object_repr": "Nightmares (-1)", 
+        "object_id": "44", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 92, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:33:30.715Z", 
+        "object_repr": "Magic Susceptibility (-2)", 
+        "object_id": "45", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 93, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:33:40.636Z", 
+        "object_repr": "Methuselah's Thrist (-4)", 
+        "object_id": "46", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 94, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:33:46.425Z", 
+        "object_repr": "Overconfident (-2)", 
+        "object_id": "47", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 95, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:33:59.855Z", 
+        "object_repr": "Permanent Wound (-3)", 
+        "object_id": "48", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 96, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:04.941Z", 
+        "object_repr": "Poseidon's Call (-3)", 
+        "object_id": "49", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 97, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:09.361Z", 
+        "object_repr": "Pied Piper (-1)", 
+        "object_id": "50", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 98, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:12.876Z", 
+        "object_repr": "Short Fuse (-2)", 
+        "object_id": "51", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 99, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:19.011Z", 
+        "object_repr": "Short Attention Span (-4)", 
+        "object_id": "52", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 100, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:25.570Z", 
+        "object_repr": "Slow Healing (-3)", 
+        "object_id": "53", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 101, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:31.850Z", 
+        "object_repr": "Prey Exclusion (-1)", 
+        "object_id": "54", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 102, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:35.899Z", 
+        "object_repr": "Slow Reactions (-1)", 
+        "object_id": "55", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 103, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:42.637Z", 
+        "object_repr": "Stolen Potential (-3)", 
+        "object_id": "56", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 104, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:49.618Z", 
+        "object_repr": "Repelled by Religion (-3)", 
+        "object_id": "57", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 105, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:34:53.589Z", 
+        "object_repr": "Thin Blooded (-3)", 
+        "object_id": "58", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 106, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:35:03.107Z", 
+        "object_repr": "Weak Stomach (-3)", 
+        "object_id": "59", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 107, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:35:11.411Z", 
+        "object_repr": "Thirst for Innocence (-1)", 
+        "object_id": "60", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 108, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:35:16.455Z", 
+        "object_repr": "Trouble Magnet (-1)", 
+        "object_id": "61", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 109, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:35:20.732Z", 
+        "object_repr": "Vulnerable to Silver (-2)", 
+        "object_id": "62", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 110, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:35:27.303Z", 
+        "object_repr": "Weak-Willed (-3)", 
+        "object_id": "63", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 111, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:36:13.958Z", 
         "object_repr": "Animalismo", 
         "object_id": "1", 
         "change_message": "", 
@@ -1630,11 +3630,11 @@
     }
 },
 {
-    "pk": 29, 
+    "pk": 112, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:34:29.265Z", 
+        "action_time": "2014-07-11T16:36:19.895Z", 
         "object_repr": "Ausp\u00edcius", 
         "object_id": "2", 
         "change_message": "", 
@@ -1643,11 +3643,11 @@
     }
 },
 {
-    "pk": 30, 
+    "pk": 113, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:34:36.721Z", 
+        "action_time": "2014-07-11T16:36:23.340Z", 
         "object_repr": "Rapidez", 
         "object_id": "3", 
         "change_message": "", 
@@ -1656,11 +3656,11 @@
     }
 },
 {
-    "pk": 31, 
+    "pk": 114, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:34:41.507Z", 
+        "action_time": "2014-07-11T16:36:26.972Z", 
         "object_repr": "Quimerismo", 
         "object_id": "4", 
         "change_message": "", 
@@ -1669,12 +3669,12 @@
     }
 },
 {
-    "pk": 32, 
+    "pk": 115, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:34:48.035Z", 
-        "object_repr": "Dem\u00eancia", 
+        "action_time": "2014-07-11T16:36:30.350Z", 
+        "object_repr": "Daimoinion", 
         "object_id": "5", 
         "change_message": "", 
         "user": 1, 
@@ -1682,12 +3682,12 @@
     }
 },
 {
-    "pk": 33, 
+    "pk": 116, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:34:52.139Z", 
-        "object_repr": "Domina\u00e7\u00e3o", 
+        "action_time": "2014-07-11T16:36:35.832Z", 
+        "object_repr": "Dem\u00eancia", 
         "object_id": "6", 
         "change_message": "", 
         "user": 1, 
@@ -1695,12 +3695,12 @@
     }
 },
 {
-    "pk": 34, 
+    "pk": 117, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:34:56.415Z", 
-        "object_repr": "Fortitude", 
+        "action_time": "2014-07-11T16:36:39.497Z", 
+        "object_repr": "Domina\u00e7\u00e3o", 
         "object_id": "7", 
         "change_message": "", 
         "user": 1, 
@@ -1708,12 +3708,12 @@
     }
 },
 {
-    "pk": 35, 
+    "pk": 118, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:06.905Z", 
-        "object_repr": "Ofusca\u00e7\u00e3o", 
+        "action_time": "2014-07-11T16:36:42.489Z", 
+        "object_repr": "Fortitude", 
         "object_id": "8", 
         "change_message": "", 
         "user": 1, 
@@ -1721,12 +3721,12 @@
     }
 },
 {
-    "pk": 36, 
+    "pk": 119, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:11.986Z", 
-        "object_repr": "Tenebrosidade", 
+        "action_time": "2014-07-11T16:36:46.143Z", 
+        "object_repr": "Melpominee", 
         "object_id": "9", 
         "change_message": "", 
         "user": 1, 
@@ -1734,12 +3734,12 @@
     }
 },
 {
-    "pk": 37, 
+    "pk": 120, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:15.818Z", 
-        "object_repr": "Pot\u00eancia", 
+        "action_time": "2014-07-11T16:36:50.509Z", 
+        "object_repr": "Mytherceria", 
         "object_id": "10", 
         "change_message": "", 
         "user": 1, 
@@ -1747,12 +3747,12 @@
     }
 },
 {
-    "pk": 38, 
+    "pk": 121, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:18.516Z", 
-        "object_repr": "Presen\u00e7a", 
+        "action_time": "2014-07-11T16:36:53.257Z", 
+        "object_repr": "Obeah", 
         "object_id": "11", 
         "change_message": "", 
         "user": 1, 
@@ -1760,12 +3760,12 @@
     }
 },
 {
-    "pk": 39, 
+    "pk": 122, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:23.180Z", 
-        "object_repr": "Metamorfose", 
+        "action_time": "2014-07-11T16:36:57.221Z", 
+        "object_repr": "Ofusca\u00e7\u00e3o", 
         "object_id": "12", 
         "change_message": "", 
         "user": 1, 
@@ -1773,12 +3773,12 @@
     }
 },
 {
-    "pk": 40, 
+    "pk": 123, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:27.682Z", 
-        "object_repr": "Quietus", 
+        "action_time": "2014-07-11T16:37:00.022Z", 
+        "object_repr": "Tenebrosidade", 
         "object_id": "13", 
         "change_message": "", 
         "user": 1, 
@@ -1786,12 +3786,12 @@
     }
 },
 {
-    "pk": 41, 
+    "pk": 124, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:32.288Z", 
-        "object_repr": "Serpentis", 
+        "action_time": "2014-07-11T16:37:05.268Z", 
+        "object_repr": "Pot\u00eancia", 
         "object_id": "14", 
         "change_message": "", 
         "user": 1, 
@@ -1799,12 +3799,12 @@
     }
 },
 {
-    "pk": 42, 
+    "pk": 125, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:35.684Z", 
-        "object_repr": "Temporis", 
+        "action_time": "2014-07-11T16:37:07.222Z", 
+        "object_repr": "Presen\u00e7a", 
         "object_id": "15", 
         "change_message": "", 
         "user": 1, 
@@ -1812,12 +3812,12 @@
     }
 },
 {
-    "pk": 43, 
+    "pk": 126, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:42.264Z", 
-        "object_repr": "Vicissitude", 
+        "action_time": "2014-07-11T16:37:11.604Z", 
+        "object_repr": "Metamorfose", 
         "object_id": "16", 
         "change_message": "", 
         "user": 1, 
@@ -1825,12 +3825,12 @@
     }
 },
 {
-    "pk": 44, 
+    "pk": 127, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:47.477Z", 
-        "object_repr": "Necromancia", 
+        "action_time": "2014-07-11T16:37:16.311Z", 
+        "object_repr": "Quietus", 
         "object_id": "17", 
         "change_message": "", 
         "user": 1, 
@@ -1838,12 +3838,12 @@
     }
 },
 {
-    "pk": 45, 
+    "pk": 128, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:35:51.747Z", 
-        "object_repr": "Taumaturgia", 
+        "action_time": "2014-07-11T16:37:19.042Z", 
+        "object_repr": "Serpentis", 
         "object_id": "18", 
         "change_message": "", 
         "user": 1, 
@@ -1851,12 +3851,12 @@
     }
 },
 {
-    "pk": 46, 
+    "pk": 129, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:36:15.830Z", 
-        "object_repr": "Obeah", 
+        "action_time": "2014-07-11T16:37:21.847Z", 
+        "object_repr": "Temporis", 
         "object_id": "19", 
         "change_message": "", 
         "user": 1, 
@@ -1864,12 +3864,12 @@
     }
 },
 {
-    "pk": 47, 
+    "pk": 130, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:36:50.087Z", 
-        "object_repr": "Melpominee", 
+        "action_time": "2014-07-11T16:37:24.941Z", 
+        "object_repr": "Thanatose", 
         "object_id": "20", 
         "change_message": "", 
         "user": 1, 
@@ -1877,12 +3877,12 @@
     }
 },
 {
-    "pk": 48, 
+    "pk": 131, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:37:04.988Z", 
-        "object_repr": "Tanatose", 
+        "action_time": "2014-07-11T16:37:28.393Z", 
+        "object_repr": "Valeren", 
         "object_id": "21", 
         "change_message": "", 
         "user": 1, 
@@ -1890,12 +3890,12 @@
     }
 },
 {
-    "pk": 49, 
+    "pk": 132, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:37:14.353Z", 
-        "object_repr": "Mytherceria", 
+        "action_time": "2014-07-11T16:37:31.711Z", 
+        "object_repr": "Vicissitude", 
         "object_id": "22", 
         "change_message": "", 
         "user": 1, 
@@ -1903,12 +3903,12 @@
     }
 },
 {
-    "pk": 50, 
+    "pk": 133, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:37:22.350Z", 
-        "object_repr": "Daimoinon", 
+        "action_time": "2014-07-11T16:37:34.797Z", 
+        "object_repr": "Visceratika", 
         "object_id": "23", 
         "change_message": "", 
         "user": 1, 
@@ -1916,12 +3916,12 @@
     }
 },
 {
-    "pk": 51, 
+    "pk": 134, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:37:40.001Z", 
-        "object_repr": "Valeren", 
+        "action_time": "2014-07-11T16:37:38.055Z", 
+        "object_repr": "Necromancia", 
         "object_id": "24", 
         "change_message": "", 
         "user": 1, 
@@ -1929,12 +3929,12 @@
     }
 },
 {
-    "pk": 52, 
+    "pk": 135, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:37:43.740Z", 
-        "object_repr": "Visceratika", 
+        "action_time": "2014-07-11T16:37:41.224Z", 
+        "object_repr": "Taumaturgia", 
         "object_id": "25", 
         "change_message": "", 
         "user": 1, 
@@ -1942,575 +3942,1017 @@
     }
 },
 {
-    "pk": 53, 
+    "pk": 136, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:38:50.456Z", 
-        "object_repr": "Arquiteto", 
+        "action_time": "2014-07-11T16:38:33.702Z", 
+        "object_repr": "Architect", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 12
+    }
+},
+{
+    "pk": 137, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:38:37.698Z", 
+        "object_repr": "Artist", 
         "object_id": "2", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 54, 
+    "pk": 138, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:38:55.060Z", 
-        "object_repr": "Artista", 
+        "action_time": "2014-07-11T16:38:41.374Z", 
+        "object_repr": "Bully", 
         "object_id": "3", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 55, 
+    "pk": 139, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:39:05.817Z", 
-        "object_repr": "Encrenqueiro", 
+        "action_time": "2014-07-11T16:38:44.347Z", 
+        "object_repr": "Caregiver", 
         "object_id": "4", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 56, 
+    "pk": 140, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:39:47.238Z", 
-        "object_repr": "Protetor", 
+        "action_time": "2014-07-11T16:38:47.033Z", 
+        "object_repr": "Child", 
         "object_id": "5", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 57, 
+    "pk": 141, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:39:53.636Z", 
-        "object_repr": "Infantil", 
+        "action_time": "2014-07-11T16:38:50.673Z", 
+        "object_repr": "Competitor", 
         "object_id": "6", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 58, 
+    "pk": 142, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:40:00.556Z", 
-        "object_repr": "Competidor", 
+        "action_time": "2014-07-11T16:38:58.970Z", 
+        "object_repr": "Con Artist", 
         "object_id": "7", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 59, 
+    "pk": 143, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:40:14.218Z", 
-        "object_repr": "Vigarista", 
+        "action_time": "2014-07-11T16:39:02.286Z", 
+        "object_repr": "Conformist", 
         "object_id": "8", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 60, 
+    "pk": 144, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:40:18.552Z", 
-        "object_repr": "Conformista", 
+        "action_time": "2014-07-11T16:39:05.041Z", 
+        "object_repr": "Curious", 
         "object_id": "9", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 61, 
+    "pk": 145, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:40:24.529Z", 
-        "object_repr": "Curioso", 
+        "action_time": "2014-07-11T16:39:10.943Z", 
+        "object_repr": "Curmudgeon", 
         "object_id": "10", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 62, 
+    "pk": 146, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:40:43.172Z", 
-        "object_repr": "Grosseiro", 
+        "action_time": "2014-07-11T16:39:14.787Z", 
+        "object_repr": "Cultured", 
         "object_id": "11", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 63, 
+    "pk": 147, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:40:57.950Z", 
-        "object_repr": "Culto", 
+        "action_time": "2014-07-11T16:39:17.025Z", 
+        "object_repr": "Enigma", 
         "object_id": "12", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 64, 
+    "pk": 148, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:41:09.931Z", 
-        "object_repr": "Enigm\u00e1tico", 
+        "action_time": "2014-07-11T16:39:19.407Z", 
+        "object_repr": "Fanatic", 
         "object_id": "13", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 65, 
+    "pk": 149, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:41:15.951Z", 
-        "object_repr": "Fan\u00e1tico", 
+        "action_time": "2014-07-11T16:39:23.753Z", 
+        "object_repr": "Fighter", 
         "object_id": "14", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 66, 
+    "pk": 150, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:41:23.649Z", 
-        "object_repr": "Lutador", 
+        "action_time": "2014-07-11T16:39:27.316Z", 
+        "object_repr": "Freak", 
         "object_id": "15", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 67, 
+    "pk": 151, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:41:47.073Z", 
-        "object_repr": "Esquisito", 
+        "action_time": "2014-07-11T16:39:34.538Z", 
+        "object_repr": "Free Spirit", 
         "object_id": "16", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 68, 
+    "pk": 152, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:42:22.927Z", 
-        "object_repr": "Ca\u00e7ador de Emo\u00e7\u00f5es", 
+        "action_time": "2014-07-11T16:39:36.953Z", 
+        "object_repr": "Judge", 
         "object_id": "17", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 69, 
+    "pk": 153, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:42:27.420Z", 
-        "object_repr": "Juiz", 
+        "action_time": "2014-07-11T16:39:41.378Z", 
+        "object_repr": "Know-It-All", 
         "object_id": "18", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 70, 
+    "pk": 154, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:42:34.355Z", 
-        "object_repr": "Sabe-Tudo", 
+        "action_time": "2014-07-11T16:39:44.049Z", 
+        "object_repr": "Introvert", 
         "object_id": "19", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 71, 
+    "pk": 155, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:42:41.618Z", 
-        "object_repr": "Introvertido", 
+        "action_time": "2014-07-11T16:39:51.111Z", 
+        "object_repr": "Leader", 
         "object_id": "20", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 72, 
+    "pk": 156, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:42:45.727Z", 
-        "object_repr": "L\u00edder", 
+        "action_time": "2014-07-11T16:39:54.214Z", 
+        "object_repr": "Loner", 
         "object_id": "21", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 73, 
+    "pk": 157, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:42:48.268Z", 
-        "object_repr": "Solit\u00e1rio", 
+        "action_time": "2014-07-11T16:39:58.698Z", 
+        "object_repr": "Loose Canon", 
         "object_id": "22", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 74, 
+    "pk": 158, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:43:07.645Z", 
-        "object_repr": "Pavio Curto", 
+        "action_time": "2014-07-11T16:40:00.802Z", 
+        "object_repr": "Martyr", 
         "object_id": "23", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 75, 
+    "pk": 159, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:43:12.620Z", 
-        "object_repr": "M\u00e1rtir", 
+        "action_time": "2014-07-11T16:40:03.238Z", 
+        "object_repr": "Mediator", 
         "object_id": "24", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 76, 
+    "pk": 160, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:43:19.970Z", 
-        "object_repr": "Mediador", 
+        "action_time": "2014-07-11T16:40:05.998Z", 
+        "object_repr": "Mercenary", 
         "object_id": "25", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 77, 
+    "pk": 161, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:43:25.755Z", 
-        "object_repr": "Mercen\u00e1rio", 
+        "action_time": "2014-07-11T16:40:09.032Z", 
+        "object_repr": "Monster", 
         "object_id": "26", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 78, 
+    "pk": 162, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:43:29.258Z", 
-        "object_repr": "Monstro", 
+        "action_time": "2014-07-11T16:40:12.220Z", 
+        "object_repr": "Penitent", 
         "object_id": "27", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 79, 
+    "pk": 163, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:43:33.018Z", 
-        "object_repr": "Penitente", 
+        "action_time": "2014-07-11T16:40:15.371Z", 
+        "object_repr": "Protector", 
         "object_id": "28", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 80, 
+    "pk": 164, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:44:01.447Z", 
-        "object_repr": "Cuidador", 
+        "action_time": "2014-07-11T16:40:18.860Z", 
+        "object_repr": "Rationalist", 
         "object_id": "29", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 81, 
+    "pk": 165, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:44:07.998Z", 
-        "object_repr": "Racional", 
+        "action_time": "2014-07-11T16:40:21.606Z", 
+        "object_repr": "Royalty", 
         "object_id": "30", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 82, 
+    "pk": 166, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:44:13.008Z", 
-        "object_repr": "Realeza", 
+        "action_time": "2014-07-11T16:40:24.313Z", 
+        "object_repr": "Survivor", 
         "object_id": "31", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 83, 
+    "pk": 167, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:44:17.563Z", 
-        "object_repr": "Sobrevivente", 
+        "action_time": "2014-07-11T16:40:29.042Z", 
+        "object_repr": "Type-A Personality", 
         "object_id": "32", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 84, 
+    "pk": 168, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:44:25.913Z", 
-        "object_repr": "Perfeccionista", 
+        "action_time": "2014-07-11T16:40:35.786Z", 
+        "object_repr": "Teacher", 
         "object_id": "33", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 85, 
+    "pk": 169, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:44:39.135Z", 
-        "object_repr": "Tradicionalista", 
+        "action_time": "2014-07-11T16:40:39.354Z", 
+        "object_repr": "Traditionalist", 
         "object_id": "34", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 86, 
+    "pk": 170, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:44:54.770Z", 
-        "object_repr": "Trapaceiro", 
+        "action_time": "2014-07-11T16:40:43.264Z", 
+        "object_repr": "Troublemaker", 
         "object_id": "35", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 87, 
+    "pk": 171, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:45:17.458Z", 
-        "object_repr": "Arruaceiro", 
+        "action_time": "2014-07-11T16:40:45.733Z", 
+        "object_repr": "Toady", 
         "object_id": "36", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 11
+        "content_type": 12
     }
 },
 {
-    "pk": 88, 
+    "pk": 172, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:47:25.295Z", 
-        "object_repr": "Trilha do Sangue", 
+        "action_time": "2014-07-11T16:40:48.461Z", 
+        "object_repr": "Trickster", 
+        "object_id": "37", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 12
+    }
+},
+{
+    "pk": 173, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:40:51.399Z", 
+        "object_repr": "Unflappable", 
+        "object_id": "38", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 12
+    }
+},
+{
+    "pk": 174, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:40:55.319Z", 
+        "object_repr": "Untrustworthy", 
+        "object_id": "39", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 12
+    }
+},
+{
+    "pk": 175, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-07-11T16:43:56.929Z", 
+        "object_repr": "Cannot Cross Running Water (-2)", 
+        "object_id": "9", 
+        "change_message": "Modificado flawName.", 
+        "user": 1, 
+        "content_type": 14
+    }
+},
+{
+    "pk": 176, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:44:48.802Z", 
+        "object_repr": "Acute Sense (1)", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 177, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:44:56.564Z", 
+        "object_repr": "Additional Common Discipline (4)", 
         "object_id": "2", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 10
+        "content_type": 13
     }
 },
 {
-    "pk": 89, 
+    "pk": 178, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:48:33.206Z", 
-        "object_repr": "Trilha de Cathari", 
+        "action_time": "2014-07-11T16:44:59.865Z", 
+        "object_repr": "Arcane (1)", 
         "object_id": "3", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 10
+        "content_type": 13
     }
 },
 {
-    "pk": 90, 
+    "pk": 179, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:48:38.835Z", 
-        "object_repr": "Trilha de Caim", 
+        "action_time": "2014-07-11T16:45:03.385Z", 
+        "object_repr": "Blas\u00e9 (3)", 
         "object_id": "4", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 10
+        "content_type": 13
     }
 },
 {
-    "pk": 91, 
+    "pk": 180, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:49:04.433Z", 
-        "object_repr": "Trilha de Typhon", 
+        "action_time": "2014-07-11T16:45:14.652Z", 
+        "object_repr": "Ambidextrous (2)", 
         "object_id": "5", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 10
+        "content_type": 13
     }
 },
 {
-    "pk": 92, 
+    "pk": 181, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:49:13.446Z", 
-        "object_repr": "Trilha de Lilith", 
+        "action_time": "2014-07-11T16:45:23.410Z", 
+        "object_repr": "Additional Uncommon Discipline (5)", 
         "object_id": "6", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 10
+        "content_type": 13
     }
 },
 {
-    "pk": 93, 
+    "pk": 182, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:49:20.170Z", 
-        "object_repr": "Trilha da Noite", 
+        "action_time": "2014-07-11T16:45:31.095Z", 
+        "object_repr": "Calm Heart (1)", 
         "object_id": "7", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 10
+        "content_type": 13
     }
 },
 {
-    "pk": 94, 
+    "pk": 183, 
     "model": "admin.logentry", 
     "fields": {
         "action_flag": 1, 
-        "action_time": "2014-07-11T02:59:25.716Z", 
-        "object_repr": "Adham", 
-        "object_id": "1", 
+        "action_time": "2014-07-11T16:45:35.974Z", 
+        "object_repr": "Clear Sighted (3)", 
+        "object_id": "8", 
         "change_message": "", 
         "user": 1, 
-        "content_type": 15
+        "content_type": 13
     }
 },
 {
-    "pk": 95, 
+    "pk": 184, 
     "model": "admin.logentry", 
     "fields": {
-        "action_flag": 2, 
-        "action_time": "2014-07-11T03:00:55.323Z", 
-        "object_repr": "Adham", 
-        "object_id": "1", 
-        "change_message": "Modificado charMorality.", 
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:45:41.410Z", 
+        "object_repr": "Efficient Digestion (1)", 
+        "object_id": "9", 
+        "change_message": "", 
         "user": 1, 
-        "content_type": 15
+        "content_type": 13
     }
 },
 {
-    "pk": 96, 
+    "pk": 185, 
     "model": "admin.logentry", 
     "fields": {
-        "action_flag": 2, 
-        "action_time": "2014-07-11T03:02:02.776Z", 
-        "object_repr": "Assamita", 
-        "object_id": "1", 
-        "change_message": "Modificado clanName.", 
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:45:45.913Z", 
+        "object_repr": "Efficient Learner (2)", 
+        "object_id": "10", 
+        "change_message": "", 
         "user": 1, 
-        "content_type": 7
+        "content_type": 13
+    }
+},
+{
+    "pk": 186, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:45:50.963Z", 
+        "object_repr": "Golconda Seeker (5)", 
+        "object_id": "11", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 187, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:45:56.458Z", 
+        "object_repr": "Code of Honor (2)", 
+        "object_id": "12", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 188, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:03.508Z", 
+        "object_repr": "Daredevil (2)", 
+        "object_id": "13", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 189, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:13.505Z", 
+        "object_repr": "Infernal Power (3)", 
+        "object_id": "14", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 190, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:24.312Z", 
+        "object_repr": "Intense Vitality (3)", 
+        "object_id": "15", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 191, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:28.556Z", 
+        "object_repr": "Iron Will (3)", 
+        "object_id": "16", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 192, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:34.111Z", 
+        "object_repr": "Light Sleeper (1)", 
+        "object_id": "17", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 193, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:39.826Z", 
+        "object_repr": "Loremaster (1)", 
+        "object_id": "18", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 194, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:44.541Z", 
+        "object_repr": "Lucky (2)", 
+        "object_id": "19", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 195, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:51.040Z", 
+        "object_repr": "Magic Resistance (3)", 
+        "object_id": "20", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 196, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:53.934Z", 
+        "object_repr": "Medium (1)", 
+        "object_id": "21", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 197, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:46:57.849Z", 
+        "object_repr": "Natural Linguist (1)", 
+        "object_id": "22", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 198, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:47:08.531Z", 
+        "object_repr": "Oracular Ability (2)", 
+        "object_id": "23", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 199, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:47:18.803Z", 
+        "object_repr": "Personal Masquerade (1)", 
+        "object_id": "24", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 200, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:47:22.423Z", 
+        "object_repr": "Reputation (2)", 
+        "object_id": "25", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 201, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:47:25.911Z", 
+        "object_repr": "Rugged (3)", 
+        "object_id": "26", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 202, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:47:45.097Z", 
+        "object_repr": "Necromantic Training (5)", 
+        "object_id": "27", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 203, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:47:55.265Z", 
+        "object_repr": "Skill Aptitude (2)", 
+        "object_id": "28", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 204, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:48:01.983Z", 
+        "object_repr": "Slippery Customer (2)", 
+        "object_id": "29", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 205, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:48:09.854Z", 
+        "object_repr": "Thaumaturgic Training (5)", 
+        "object_id": "30", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 206, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:48:15.789Z", 
+        "object_repr": "Whisper of Life (1)", 
+        "object_id": "31", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 207, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:48:20.513Z", 
+        "object_repr": "Unbondable (4)", 
+        "object_id": "32", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 208, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:48:28.708Z", 
+        "object_repr": "Unyielding (4)", 
+        "object_id": "33", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 209, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:48:34.135Z", 
+        "object_repr": "Versatile (3)", 
+        "object_id": "34", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 210, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:48:52.152Z", 
+        "object_repr": "Path of Blood (3)", 
+        "object_id": "35", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 211, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:48:59.163Z", 
+        "object_repr": "Path of Blood (Assam) (2)", 
+        "object_id": "36", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 212, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:49:20.753Z", 
+        "object_repr": "Path of Typhon-Set (3)", 
+        "object_id": "37", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 213, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-11T16:49:36.661Z", 
+        "object_repr": "Path of Power & the Inner Voice (3)", 
+        "object_id": "38", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
     }
 }
 ]

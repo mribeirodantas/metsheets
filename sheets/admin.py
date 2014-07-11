@@ -83,7 +83,7 @@ class AdminChar(admin.ModelAdmin):
                                     ['brawl', 'leadership', 'streetwise'],
                                     ['computer', 'linguistics', 'subterfuge'],
                                     ['crafts', 'lore', 'survival'],
-                                    ['dodge', 'melee'],
+                                    ['dodge', 'melee', 'medicine'],
                                     ['drive', 'occult']]}),
         ('Disciplinas', {'fields': [['aDiscipline', 'aDisciplineLevel'],
                                     ['bDiscipline', 'bDisciplineLevel'],

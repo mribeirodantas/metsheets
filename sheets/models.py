@@ -103,7 +103,7 @@ class Archetype(models.Model):
 class Merit(models.Model):
     idMerit = models.AutoField(primary_key=True, verbose_name="ID da Qualidade")
     # Longest merit name is ??
-    meritName = models.CharField(max_length=20, unique=True,
+    meritName = models.CharField(max_length=40, unique=True,
                 verbose_name="nome")
     meritValue = models.IntegerField(verbose_name="Número de Pontos")
 
@@ -119,7 +119,7 @@ class Merit(models.Model):
 class Flaw(models.Model):
     idFlaw = models.AutoField(primary_key=True, verbose_name="ID do Defeito")
     # Longest flaw name is ??
-    flawName = models.CharField(max_length=20, unique=True,
+    flawName = models.CharField(max_length=40, unique=True,
                verbose_name="nome")
     flawValue = models.IntegerField(verbose_name="Número de Pontos")
 
