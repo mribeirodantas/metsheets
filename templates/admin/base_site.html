@@ -1,0 +1,25 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+.
+{% block title %}{{ title }} | {% trans 'Jogos da Noite' %}{% endblock %}
+.
+{% block branding %}
+<style type="text/css">
+  #header
+  {
+    /* your style here */
+  }
+</style>
+{% if user.is_authenticated %}
+    {% with "Jogos da Noite <a href=\"javascript:history.go(-1)\"> Voltar à página anterior..</a>" as name %}
+    <center><h1 id="site-name">{{ name }}</h1>
+    {% endwith %}
+{% else %}
+    {% with "Jogos da Noite" as name %}
+    <center><h1 id="site-name">{{ name }}</h1>
+    {% endwith %}
+{% endif %}
+
+{% endblock %}
+.
+{% block nav-global %}{% endblock %}
