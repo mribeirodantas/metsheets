@@ -112,7 +112,8 @@ class AdminChar(admin.ModelAdmin):
         ('Outros', {'fields': [['notes', 'diablerie', 'destroyed', 'vaulderie',
                                'introduced', 'hunted']]})
         ]
-    list_display = ['playerName', 'charName', 'charClan', 'charSect']
+    list_display = ['playerName', 'charName', 'charClan', 'charSect',
+                    'introduced', 'vaulderie']
 
 admin.site.register(Clan, AdminClan)
 admin.site.register(Sect, AdminSect)
