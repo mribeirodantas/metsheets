@@ -309,6 +309,30 @@ class Character(models.Model):
                                            blank=True, null=True,
                                            validators=[MinValueValidator(1),
                                            MaxValueValidator(5)])
+    # Blood pool
+    blood1 = models.BooleanField(default=False, verbose_name="")
+    blood2 = models.BooleanField(default=False, verbose_name="")
+    blood3 = models.BooleanField(default=False, verbose_name="")
+    blood4 = models.BooleanField(default=False, verbose_name="")
+    blood5 = models.BooleanField(default=False, verbose_name="")
+    blood6 = models.BooleanField(default=False, verbose_name="")
+    blood7 = models.BooleanField(default=False, verbose_name="")
+    blood8 = models.BooleanField(default=False, verbose_name="")
+    blood9 = models.BooleanField(default=False, verbose_name="")
+    blood10 = models.BooleanField(default=False, verbose_name="")
+    blood11 = models.BooleanField(default=False, verbose_name="")
+    blood12 = models.BooleanField(default=False, verbose_name="")
+    blood13 = models.BooleanField(default=False, verbose_name="")
+    blood14 = models.BooleanField(default=False, verbose_name="")
+    blood15 = models.BooleanField(default=False, verbose_name="")
+
+    # Beast Traits
+    beast1 = models.BooleanField(default=False, verbose_name="")
+    beast2 = models.BooleanField(default=False, verbose_name="")
+    beast3 = models.BooleanField(default=False, verbose_name="")
+    beast4 = models.BooleanField(default=False, verbose_name="")
+    beast5 = models.BooleanField(default=False, verbose_name="")
+
     # Notes
     diablerie = models.BooleanField(default=False, verbose_name="Diablerrizado")
     destroyed = models.BooleanField(default=False, verbose_name="Destruído")

@@ -152,6 +152,14 @@
     }
 },
 {
+    "pk": "zz7neznd813pkrjf0a9a4faci68q6guq", 
+    "model": "sessions.session", 
+    "fields": {
+        "expire_date": "2014-07-26T01:33:07.500Z", 
+        "session_data": "NmM2ZjZmZjA0YjU3MTM1ODE3YWY3MzMyODg0ZGZkMjc5N2FhZWJlOTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
+    }
+},
+{
     "pk": 1, 
     "model": "sheets.clan", 
     "fields": {
@@ -1170,6 +1178,22 @@
     }
 },
 {
+    "pk": 39, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 1, 
+        "meritName": "Path of Power & the Inner Voice (Sab/In)"
+    }
+},
+{
+    "pk": 40, 
+    "model": "sheets.merit", 
+    "fields": {
+        "meritValue": 2, 
+        "meritName": "Path of Typhon-Set (Viper)"
+    }
+},
+{
     "pk": 1, 
     "model": "sheets.flaw", 
     "fields": {
@@ -2178,7 +2202,7 @@
         "is_active": true, 
         "is_superuser": true, 
         "is_staff": true, 
-        "last_login": "2014-07-11T16:16:20.746Z", 
+        "last_login": "2014-07-12T01:33:07.492Z", 
         "groups": [], 
         "user_permissions": [], 
         "password": "pbkdf2_sha256$12000$tkzHZGOM4snd$B98/GxsdYzEbSDRCJTYxnw+27DpDm/Cyh1+wCO3+PLE=", 
@@ -4950,6 +4974,32 @@
         "action_time": "2014-07-11T16:49:36.661Z", 
         "object_repr": "Path of Power & the Inner Voice (3)", 
         "object_id": "38", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 214, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-12T01:33:43.740Z", 
+        "object_repr": "Path of Power & the Inner Voice (Sab/In) (1)", 
+        "object_id": "39", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 215, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-07-12T01:34:06.011Z", 
+        "object_repr": "Path of Typhon-Set (Viper) (2)", 
+        "object_id": "40", 
         "change_message": "", 
         "user": 1, 
         "content_type": 13

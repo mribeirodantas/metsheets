@@ -109,6 +109,16 @@ class AdminChar(admin.ModelAdmin):
                                     ['dFlaw'],
                                     ['eFlaw'],
                                     ]}),
+        ('Pontos de Sangue', {'fields': [['blood1', 'blood2', 'blood3',
+                                          'blood4', 'blood5'],
+                                         ['blood6', 'blood7', 'blood8',
+                                          'blood9', 'blood10'],
+                                         ['blood11', 'blood12', 'blood13',
+                                          'blood14', 'blood15'],
+                                    ]}),
+        ('Beast Traits', {'fields': [['beast1', 'beast2', 'beast3',
+                                          'beast4', 'beast5'],
+                                    ]}),
         ('Outros', {'fields': [['notes', 'diablerie', 'destroyed', 'vaulderie',
                                'introduced', 'hunted']]})
         ]
