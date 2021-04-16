@@ -8,7 +8,7 @@ django-allauth==0.16.1
 django-autocomplete==0.2
 django-bootstrap3==3.3.0
 django-coverage==1.2.4
-django-debug-toolbar==1.2.1
+django-debug-toolbar==1.11.1
 django-extensions==1.3.3
 django-toolbelt==0.0.1
 django-vanilla-views==1.0.2
