@@ -22,7 +22,7 @@ requests-oauthlib==0.4.0
 uWSGI==2.0.5
 uniconvertor==2.0
 urlgrabber==3.10.1
-urllib3==1.8.2
+urllib3==1.26.5
 urwid==1.1.1
 utils==0.5
 virtualenv==1.11
