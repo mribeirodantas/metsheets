@@ -17,7 +17,7 @@ gunicorn==18.0
 gyp==0.1
 import-utils==0.0.1
 psycopg2==2.5.3
-requests==2.2.1
+requests==2.20.0
 requests-oauthlib==0.4.0
 uWSGI==2.0.5
 uniconvertor==2.0
